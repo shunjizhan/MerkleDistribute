@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "hardhat compile",
-    "test": "hardhat test",
+    "clean": "rm -rf artifacts/ cache/ typechain-types/",
     "deploy": "hardhat run scripts/deploy.ts"
   },
   "devDependencies": {

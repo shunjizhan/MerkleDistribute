@@ -10,7 +10,7 @@ const networkCommon = {
 };
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.20",
+  solidity: "0.8.22",
   networks: {
     mandala: {
       ...networkCommon,
@@ -29,9 +29,6 @@ const config: HardhatUserConfig = {
       ...networkCommon,
       chainId: 787,
     },
-  },
-  mocha: {
-    timeout: 987654321,
   },
 };
 
